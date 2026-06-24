@@ -1,0 +1,34 @@
+# CMake build trees and generated metadata
+/build/
+/build_*/
+/out/
+/.deps/
+/_deps/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+
+# IDE-local state
+/.vs/
+/.vscode/
+/.idea/
+
+# Compiler and linker outputs
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.dll
+*.exp
+*.log
+
+# Generated benchmark and proof data
+*.csv
+*.dory
+proof*.dory
+statement*.dory
+batch_*.dory
+bench_results*.csv
+bench_profile*.csv
+pair_product_microbench*.csv
